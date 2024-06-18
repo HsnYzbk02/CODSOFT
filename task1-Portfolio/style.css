@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 99%;
+    background: url(C:/Users/Alfa/Desktop/task1-Portfolio/picture/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 99vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding:15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar.logo{
+    width: 160px;
+    height: 100px;
+    cursor:pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding:10px 15px;
+}
+ul li a{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color:darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{color:rgb(230,104,59);}
+.info{margin-top: 6%;
+margin-left: 7%;}
+.content h1{
+    font-size: 66px;
+    color:rgb(36,32,30);
+}
+.content h3{font-size: 18px;
+letter-spacing: 1px;
+line-height: 24px;}
+.content span{color:rgb(230,104,59);}
+.content a{
+    text-decoration: none;
+    color:#fff ;
+    background: rgb(36,32,30);
+    margin:27px 0px;
+   
+    padding: 10px 19px;
+    border-radius:10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.content a:hover{background:rgb(59,174,209);}
+.image{width: 29%;
+    height: 59%;
+position: absolute;
+right:101px;
+bottom: 0;}
+
+.image img{
+    position: absolute;
+    height: 139%;
+    left:39%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image:hover .boy{left:56%;}
+
+footer {
+    background-color: #000; 
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+  }
+
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff; 
+  }

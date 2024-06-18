@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+box-sizing: border-box;
+}
+
+.cntct{position: relative;
+min-height: 99vh;
+padding: 51px 99px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: url(C:/Users/Alfa/Desktop/task1-Portfolio/picture/contact.png);
+background-size:cover;
+}
+
+.cntct.content {
+    max-width: 801px;
+    text-align: center;
+}
+
+.cntct .content h2{
+    font-size: 36px;
+    font-weight: 501;
+color:white;
+}
+
+.cntct .content p{
+    font-weight: 300;
+color:white;
+}
+
+.contnr{
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:31px;
+}
+.cntct .contnr .Info{
+    width: 51%;
+    display: flex;
+    flex-direction: column;
+}
+.cntct .contnr .Info .box{
+    position: relative;
+    padding: 21px 0;
+    display: flex;
+}
+
+.cntct .contnr .Info .box .icon{
+    min-width: 61px;
+    height: 61px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 49%;
+    font-size: 21px;
+
+}
+.cntct .contnr .Info .box .text{
+    display: flex;
+    margin-left: 21px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 301;
+
+}
+
+.cntct .contnr .Info .box .text h3{
+
+    font-weight: 501;
+    color: #00bcd4;
+
+}
+.Form{
+    width: 41%;
+    padding: 41px;
+    background: #fff;
+}
+.Form h2{
+    font-size: 31px;
+    color:#333;
+    font-weight: 501;
+}
+.Form .inputBox{
+    position: relative;
+    width: 99%;
+    margin-top: 10px;
+}
+
+.Form .inputBox input,
+.Form .inputBox textarea{
+    width: 99%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.Form .inputBox span{
+    position: absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.4s;
+    color: #666;
+}
+
+.Form .inputBox input:focus ~ span,
+.Form .inputBox input:valid ~ span,
+
+.Form .inputBox textarea:focus ~ span,
+.Form .inputBox textarea:valid ~ span
+{
+color:#e91e63;
+font-size: 12px;
+transform: translateY(-20px);
+}
+
+.Form .inputBox input[type="submit"]{
+    width: 101px;;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
